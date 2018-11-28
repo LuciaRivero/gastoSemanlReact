@@ -15,9 +15,9 @@ class FormularioGastos extends Component {
             nombreGasto: this.nombreGasto.current.value,
             cantidadGasto: this.cantidadGasto.current.value
         }
-        console.log(gasto);
+        //console.log(gasto);
         //agregarlo y enviarlo por props
-        //LOS PROPS SOLO SE PUEDEN PARA DE PADRE A HIJO, PERO LOS DATOS PUEDEN DIRECCIONARSE ENTRE AMBOS
+        //LOS PROPS SOLO SE PUEDEN PASAR DE PADRE A HIJO, PERO LOS DATOS PUEDEN DIRECCIONARSE ENTRE AMBOS
         this.props.agregarGasto(gasto);
 
     }
